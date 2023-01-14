@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="邹太平,代数,几何,数论,taipingzou,taiping-zou,数学">
+<meta name="description" content="taiping-zou邹太平数学个人主页">
+<link rel="icon" type="image/png" href="datouzhao.png">
+
+<style> 
+  body {
+      font-family: "Monaco";
+      color: black;
+      font-weight: normal;
+      font-size: 120%;
+      padding: 0;
+      margin: 0;
+      text-decoration: none;
+      background: url(bg.gif);/* 背景*/
+    }
+  
+  #conteneur { border-style: none;
+      border-width: 1px;
+      background: url(bg.gif);/* 背景*/;
+      margin-bottom: 0.5cm ! important;
+      margin-top: 0.5cm ! important;
+      min-width: cm ;
+      max-width: 1040px ;
+      position: center ! important;
+      margin-left: auto  ;
+      margin-right: auto  ;
+      /*width: 975px ! important;*/
+    text-align: left;
+      }
+  
+  .opacity {
+  filter:alpha(opacity=30);
+  -moz-opacity:0.3;
+  -khtml-opacity: 0.3;
+  opacity: 0.3;
+  } 
+  
+  #header { border: 2px solid #637081;
+      padding-left: 10px;
+      padding-top: 70px;
+      background-repeat: no-repeat;
+      background-position: left center;
+      height: 80px;
+    background-image: url(head.gif);  
+     }
+  #header #name  {
+      width: 360px;
+      font-family:  "Courier New";
+      font-weight: bold;
+      Text-align: center;
+      color: #462241; /*FFFFFF;*/
+      font-size: 40pt;  
+      padding: 3px;
+      background:rgba(116, 160, 173, 0.9) ;
+     }
+  
+  #pied { border-style: none solid solid;
+      border-color: -moz-use-text-color rgb(32, 32, 32) rgb(32, 32, 32);
+      border-width: 0pt 1px 1px;
+      padding: 0.5em;
+      text-align: right;
+      position: relative;
+      }
+  
+  
+  ul#menu { border-top: 1px solid #9eacbd;
+        border-bottom: 2px solid #637081;
+        border-left: 2px solid #637081;
+        border-right: 2px solid #637081;
+        margin: 0pt;
+        padding: 0pt;
+        background-color:#a9b0bc;
+        repeat-x scroll left top;
+        -moz-background-clip: initial;
+        -moz-background-origin: initial;
+        -moz-background-inline-policy: initial;
+        list-style-type: none;
+        width: auto;
+        position: relative;
+        display: block;
+        height: 40px;
+        font: italic 2em Georgia, serif;
+        /*CHANGE MENU FONT*/
+        font-size: 20px; /*CHANGE MENU FONT SIZE*/
+        }
+  
+  ul#menu li { margin: 0pt;
+      padding: 0pt;
+      display: block;
+      float: left;
+      width: 20%;
+      height: 40px;
+      }
+  
+  ul#menu li a { padding: 8px 20px 0pt;
+      display: block;
+      float: left;
+      text-decoration: none;
+      color: rgb(0, 0, 0) ! important;
+      font-weight: bold ! important;
+      }
+  
+  ul#menu li a:hover { background-color: #9d849a ;
+        height: 31px;
+        width: auto;
+        color: #990000 ! important;
+      }
+  
+    
+  
+  
+  
+  a:link { color: blue; }
+  a:visited { color: blue; }
+  a:hover { color: #660066; }
+  a:active { color: #ee0000; }
+  
+  
+   
+  h1 { margin: 0.5em 0.5em 1em 0pt;
+        font-size: 1.6em;
+      }
+    
+  h2 { margin: 0.8em 0.5em 0.3em 0.0em;
+        font-size: 1.2em;
+      }
+    
+  h3 { margin: 0.8em 0.5em 0.3em 0.0em;
+      font-size: 1.1em;
+      font-style:oblique;
+      }
+    
+  h4 { margin: 0.7em 0.5em 0.3em 0em;
+      font-size: 1em;
+      font-style:oblique;
+      }
+    
+  h5 { margin: 0.6em 0.5em 0.2em 1.5em;
+      font-size: 0.9em;
+      font-style:oblique;
+      }
+  
+  p { margin: 1px 0.5em 0.5em 1.5em;
+      }
+  li {
+      padding:3px;
+      }
+  
+  .leftcol, .rightcol {margin-top:10px; padding:0px; }
+  .leftcol { float:left; }
+  .rightcol { float:right; }
+  .leftcol  { width: 56%; }
+  .rightcol  { width: 40%;}
+  
+  
+  table{
+      width: 100%;
+      border-collapse: collapse;
+      }
+  
+  table caption{
+      font-size: 2em;
+      font-weight: bold;
+      margin: 10px 0;
+  }
+  
+  th,td{
+      border: 0px solid #999;
+      border-radius: 6px;
+      text-align: center;
+      padding: 5px 0;
+  }
+  
+  table thead tr{
+      background-color: #008c8c;
+      color: #fff;
+  }
+  
+  table tbody tr:nth-child(odd){
+      background-color: rgba(140, 170, 174, 0.509);
+  }
+  
+  table tbody tr:nth-child(even){
+      background-color: #6370817a;
+  }
+  table tbody tr:hover{
+      background-color: #9d94ad;
+  }
+  
+  table tbody tr td:first-child{
+      color: rgb(0, 0, 0);
+  }
+  
+  table tfoot tr td{
+      text-align: right;
+      padding-right: 0px;
+  }
+  
+  
+  hr {
+      border: 0;
+      height: 3px;
+      background: #637081;
+     /* background-image: linear-gradient(to right, #ccc, #333, #ccc);*/
+  }
+  </style> 
+  
+  
+<title>taiping-zou</title>
+</head>
+
+<body>
+<div id="conteneur">
+
+
+<div id="header">
+<div id="name">TaiPing-Zou</div>
+</div>
+
+
+<div>
+<ul id="menu">
+  <li><a  href="index.html" target="_self">Home</a></li>
+  <li><a href="learn.html" target="_self">Learn</a></li>
+  <li><a href="notes.html" target="_self">Notes</a></li>
+  <li><a href="love.html" target="_self">Love</a></li>
+<li><a style="font-family: STXihei; font-style:normal;" href="https://my-website-5gh9m7ve97b9c6b1-1308818550.ap-shanghai.app.tcloudbase.com/" target="-blank" > 快网速页面</a></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="leftcol">
+  <hr>
+  <img src="sheandme.gif" width="300pt" alt="我和她">
+  <hr>
+</div>  
+  
+  
+  
+
+<div class="rightcol">
+
+</div><!--End of right-->
+
+
+</div><!--  conteneur   -->
+</body></html>
